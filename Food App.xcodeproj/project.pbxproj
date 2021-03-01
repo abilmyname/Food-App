@@ -11,6 +11,9 @@
 		04374B3B25EC963D004749E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04374B3A25EC963D004749E6 /* ContentView.swift */; };
 		04374B3D25EC9668004749E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04374B3C25EC9668004749E6 /* Assets.xcassets */; };
 		04374B4025EC9668004749E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04374B3F25EC9668004749E6 /* Preview Assets.xcassets */; };
+		04374B5325EC9BE1004749E6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04374B5225EC9BE1004749E6 /* HomeViewModel.swift */; };
+		04374B5625ECA0DD004749E6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04374B5525ECA0DD004749E6 /* Menu.swift */; };
+		04374B5925ECA2DC004749E6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04374B5825ECA2DC004749E6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		04374B3C25EC9668004749E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04374B3F25EC9668004749E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04374B4125EC9669004749E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04374B5225EC9BE1004749E6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		04374B5525ECA0DD004749E6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		04374B5825ECA2DC004749E6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		04374B3725EC963D004749E6 /* Food App */ = {
 			isa = PBXGroup;
 			children = (
+				04374B4A25EC98BF004749E6 /* ViewModel */,
+				04374B4925EC98B4004749E6 /* View */,
+				04374B4825EC98A7004749E6 /* Model */,
 				04374B3825EC963D004749E6 /* Food_AppApp.swift */,
 				04374B3A25EC963D004749E6 /* ContentView.swift */,
 				04374B3C25EC9668004749E6 /* Assets.xcassets */,
@@ -67,6 +76,30 @@
 				04374B3F25EC9668004749E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04374B4825EC98A7004749E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04374B4925EC98B4004749E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04374B5525ECA0DD004749E6 /* Menu.swift */,
+				04374B5825ECA2DC004749E6 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04374B4A25EC98BF004749E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04374B5225EC9BE1004749E6 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04374B3B25EC963D004749E6 /* ContentView.swift in Sources */,
+				04374B5325EC9BE1004749E6 /* HomeViewModel.swift in Sources */,
+				04374B5925ECA2DC004749E6 /* Home.swift in Sources */,
+				04374B5625ECA0DD004749E6 /* Menu.swift in Sources */,
 				04374B3925EC963D004749E6 /* Food_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
